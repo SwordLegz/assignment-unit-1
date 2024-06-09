@@ -1,13 +1,62 @@
 /* Add a background color to the header element */
+/* Align the h1 containing your name in the center of the header*/
+.header {
+    height: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 2px solid #932f2a;
+    background-color: #a7322b;
+    border-bottom: 2px solid #932f2a;
+    border-radius: 0px;
+    font-family: fantasy;
+    font-weight: bold;
+    
+    font-size: larger;
+  }
 
 /* Add a fun background color to the main element */
-
-/* Align the h1 containing your name in the center of the header*/
-
-/* Make your p tag a different color and italic */
+.main {
+    background-color: #2CB8C7;
+    color: #080808;
+    margin: 1px;
+    height: 70vh;
+}
 
 /* Put a border around your image */
+.image {
+    border: 3px solid maroon;
+    margin-right: -11px;
+    margin-left: 1px;
+    margin-bottom: 7px;
+    margin-top: -85px;
+    position: relative;
+    top: 100px;
+    left: 550px;
+}
 
 /* Change the font-family of your list */
+.list {
+    font-family: fantasy;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: -30px;
+}
 
 /* Add a background color to the footer element */
+.footer {
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 2px solid #932f2a;
+    background-color: #a7322b;
+    border-bottom: 2px solid #932f2a;
+    border-radius: 0px;
+    font-family: fantasy;
+}
+
+/* Make your p tag a different color and italic */
+.quote {
+    font-style: italic;
+    font-weight:bolder;
+}
